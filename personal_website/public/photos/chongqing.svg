@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Chongqing rain placeholder</title>
+  <desc id="desc">Rainy neon hillside city blocks and wet roads.</desc>
+  <defs>
+    <linearGradient id="rain" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset=".54" stop-color="#202f45"/>
+      <stop offset="1" stop-color="#0c0a09"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#rain)"/>
+  <g opacity=".9">
+    <rect x="130" y="360" width="220" height="390" fill="#1b2433"/>
+    <rect x="390" y="260" width="280" height="520" fill="#263449"/>
+    <rect x="720" y="420" width="180" height="360" fill="#17202d"/>
+    <rect x="950" y="300" width="330" height="510" fill="#202a3b"/>
+    <rect x="1330" y="390" width="160" height="410" fill="#151c28"/>
+  </g>
+  <g fill="#f6dd73">
+    <rect x="180" y="420" width="52" height="80"/>
+    <rect x="460" y="330" width="70" height="96"/>
+    <rect x="1050" y="390" width="92" height="72"/>
+    <rect x="1370" y="460" width="48" height="100"/>
+  </g>
+  <g fill="#e84891">
+    <rect x="250" y="560" width="70" height="18"/>
+    <rect x="570" y="520" width="72" height="20"/>
+    <rect x="990" y="560" width="200" height="22"/>
+  </g>
+  <path d="M0 820 C360 730 500 900 800 800 C1050 720 1280 800 1600 710 L1600 1100 L0 1100Z" fill="#0a0a0a" opacity=".68"/>
+  <g stroke="#d6edf2" stroke-width="5" opacity=".34">
+    <path d="M210 70 L110 460"/>
+    <path d="M520 20 L390 520"/>
+    <path d="M840 80 L690 600"/>
+    <path d="M1190 10 L1030 570"/>
+    <path d="M1450 110 L1310 650"/>
+  </g>
+</svg>

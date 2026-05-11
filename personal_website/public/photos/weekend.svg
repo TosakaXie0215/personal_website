@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Weekend road placeholder</title>
+  <desc id="desc">A road bending toward bright hills and open sky.</desc>
+  <defs>
+    <linearGradient id="open" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7ec7d3"/>
+      <stop offset=".55" stop-color="#f6dd73"/>
+      <stop offset="1" stop-color="#d94a24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#open)"/>
+  <path d="M0 640 C250 500 430 640 650 520 C900 380 1060 520 1400 390 L1400 1000 L0 1000Z" fill="#2c6d55"/>
+  <path d="M0 760 C290 650 500 800 780 650 C1030 520 1180 650 1400 560 L1400 1000 L0 1000Z" fill="#f7efe3"/>
+  <path d="M610 1000 C670 850 760 760 920 610" stroke="#17120e" stroke-width="150" fill="none"/>
+  <path d="M700 1000 C750 860 830 780 960 650" stroke="#f6dd73" stroke-width="12" fill="none" stroke-dasharray="44 38"/>
+</svg>

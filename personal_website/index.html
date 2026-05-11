@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="一个用照片和短句记录旅行瞬间的中文个人网站。"
+    />
+    <title>去远方的人 | 旅行照片记录</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="site-nav" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="回到首页">去远方的人</a>
+        <nav>
+          <a href="#journeys">旅程</a>
+          <a href="#gallery">照片</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img class="hero-image" src="./public/photos/kamakura.svg" alt="镰仓旅行照片占位" />
+        <div class="hero-scrim"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Travel Notes / Photo Diary</p>
+          <h1 id="hero-title">把去过的远方，整理成会发光的页面。</h1>
+          <p>把路上的光、风和临时起意收进相册，也收进生活。</p>
+          <a class="primary-link" href="#gallery">看照片</a>
+        </div>
+        <aside class="hero-caption" aria-label="当前精选旅程">
+          <span>2026.04</span>
+          <strong>镰仓</strong>
+          <p>盐、铁轨、午后</p>
+        </aside>
+      </section>
+
+      <section class="journey-band" id="journeys" aria-labelledby="journey-title">
+        <div class="section-heading">
+          <p class="eyebrow">Journey Index</p>
+          <h2 id="journey-title">按地点收藏路上的瞬间</h2>
+        </div>
+        <div class="journey-list">
+          <article class="journey-row">
+            <span class="journey-number">01</span>
+            <div>
+              <p>2026.04 / 镰仓</p>
+              <h3>海边电车经过之前</h3>
+            </div>
+            <span>盐、铁轨、午后</span>
+          </article>
+          <article class="journey-row">
+            <span class="journey-number">02</span>
+            <div>
+              <p>2026.01 / 札幌</p>
+              <h3>雪把声音按低</h3>
+            </div>
+            <span>雪、灯、慢呼吸</span>
+          </article>
+          <article class="journey-row">
+            <span class="journey-number">03</span>
+            <div>
+              <p>2025.10 / 敦煌</p>
+              <h3>沙丘背后的日落</h3>
+            </div>
+            <span>沙、落日、长线条</span>
+          </article>
+          <article class="journey-row">
+            <span class="journey-number">04</span>
+            <div>
+              <p>2025.06 / 重庆</p>
+              <h3>雨夜里的山城折叠</h3>
+            </div>
+            <span>雨、霓虹、坡道</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <p class="eyebrow">Photo Wall</p>
+          <h2 id="gallery-title">照片先替你站好位置</h2>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-tile tile-1" tabindex="0">
+            <img src="./public/photos/kamakura.svg" alt="镰仓 - 海边电车经过之前" />
+            <figcaption>
+              <strong>镰仓</strong>
+              <span>潮湿的风贴着站台，蓝色车厢像一句突然出现的旁白。</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile tile-2" tabindex="0">
+            <img src="./public/photos/sapporo.svg" alt="札幌 - 雪把声音按低" />
+            <figcaption>
+              <strong>札幌</strong>
+              <span>街灯落在雪面上，整座城市像刚刚洗过的底片。</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile tile-3" tabindex="0">
+            <img src="./public/photos/dunhuang.svg" alt="敦煌 - 沙丘背后的日落" />
+            <figcaption>
+              <strong>敦煌</strong>
+              <span>风把脚印抹平，橙色的天空却把每一步都记住了。</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile tile-4" tabindex="0">
+            <img src="./public/photos/chongqing.svg" alt="重庆 - 雨夜里的山城折叠" />
+            <figcaption>
+              <strong>重庆</strong>
+              <span>楼梯、雾气和霓虹互相穿过，街口总有下一层街口。</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="stories" aria-labelledby="stories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Stories</p>
+          <h2 id="stories-title">三段可以继续生长的旅行短记</h2>
+        </div>
+        <div class="story-stack">
+          <article class="story">
+            <img src="./public/photos/station.svg" alt="我喜欢在天亮前抵达车站" />
+            <div>
+              <p class="eyebrow">最近一次出发</p>
+              <h3>我喜欢在天亮前抵达车站</h3>
+              <p>那时候城市还没有完全醒来，行李箱的轮子声会显得很清楚。旅程从这里开始，不必急着证明什么。</p>
+            </div>
+          </article>
+          <article class="story">
+            <img src="./public/photos/table.svg" alt="不只拍风景，也拍停顿" />
+            <div>
+              <p class="eyebrow">相册里的规则</p>
+              <h3>不只拍风景，也拍停顿</h3>
+              <p>一杯没喝完的咖啡、一张晒皱的票、朋友在路口回头的那一秒，往往比地标更像旅行本身。</p>
+            </div>
+          </article>
+          <article class="story">
+            <img src="./public/photos/weekend.svg" alt="把未知留给下一次周末" />
+            <div>
+              <p class="eyebrow">下一页</p>
+              <h3>把未知留给下一次周末</h3>
+              <p>网站里的每张照片都可以被替换，每段文字也可以继续生长。先把路铺开，故事会自己赶上来。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="contact" id="contact">
+        <p class="eyebrow">Stay In Touch</p>
+        <h2>下一次出发前，可以先打个招呼。</h2>
+        <a class="mail-link" href="mailto:hello@example.com">hello@example.com</a>
+        <div class="social-links">
+          <a href="https://instagram.com/">Instagram</a>
+          <a href="https://www.xiaohongshu.com/">小红书</a>
+          <a href="https://github.com/">GitHub</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

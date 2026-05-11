@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Dunhuang desert placeholder</title>
+  <desc id="desc">Layered desert dunes under an orange sunset.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#431b22"/>
+      <stop offset=".45" stop-color="#d94a24"/>
+      <stop offset="1" stop-color="#f6dd73"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" x2="1">
+      <stop offset="0" stop-color="#81501f"/>
+      <stop offset=".55" stop-color="#d99645"/>
+      <stop offset="1" stop-color="#f1c36a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#sunset)"/>
+  <circle cx="1180" cy="360" r="180" fill="#f7efe3" opacity=".75"/>
+  <path d="M0 650 C260 470 510 760 790 570 C1060 390 1300 620 1600 450 L1600 1100 L0 1100Z" fill="url(#sand)"/>
+  <path d="M0 820 C280 700 480 850 760 750 C1030 650 1230 760 1600 610 L1600 1100 L0 1100Z" fill="#9d6228" opacity=".72"/>
+  <path d="M0 940 C300 830 590 1000 900 860 C1170 735 1370 850 1600 760 L1600 1100 L0 1100Z" fill="#f0b968"/>
+  <path d="M210 760 C410 700 520 760 720 710" fill="none" stroke="#fff0bf" stroke-width="8" opacity=".44"/>
+  <path d="M720 860 C950 760 1110 850 1320 760" fill="none" stroke="#5e321c" stroke-width="9" opacity=".28"/>
+</svg>
